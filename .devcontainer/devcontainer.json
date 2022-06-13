@@ -1,0 +1,6 @@
+{
+  "name": "haskell-study",
+  "shutdownAction": "stopContainer",
+  "mounts": ["source=${localWorkspaceFolder},target=/root/haskell-study/,type=bind,consistency=cached"],
+  "image": "haskell"
+}
